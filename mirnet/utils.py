@@ -34,7 +34,7 @@ def download_dataset(dataset_tag):
             'https://drive.google.com/file/d/16ornnlmYyshdoGVAVNRGgrSYxVdTWk38',
             'LOLdataset.zip', quiet=False
         )
-        print('Unpacking Dataset', 'https://drive.google.com/file/d/16ornnlmYyshdoGVAVNRGgrSYxVdTWk38')
+        print('Unpacking Dataset', 'https://drive.google.com/uc?id=16ornnlmYyshdoGVAVNRGgrSYxVdTWk38')
         subprocess.run(['unzip', 'LOLdataset.zip'])
         print('Done!!!')
     else:
